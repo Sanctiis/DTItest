@@ -30,7 +30,7 @@ describe('Dado que estou na página de login', () => {
       intHome.fillEmail(Cypress.env('VALID_EMAIL'));
       intHome.fillPassword('invalid_password');
       intHome.clickLoginButton();
-      intHome.checkErrorMessage(elsHome.errorMessages.INVALID_EMAIL);
+      intHome.checkErrorMessage(elsHome.errorMessages.INVALID_PASSWORD);
     });
   });
 
