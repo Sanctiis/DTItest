@@ -1,6 +1,6 @@
-const intHome = require('../../support/interactions/intHome');
-const elsHome = require('../../support/elements/elsHome');
-const intAccount = require('../../support/interactions/intAccount');
+const intHome = require('../support/interactions/intHome');
+const elsHome = require('../support/elements/elsHome');
+const intAccount = require('../support/interactions/intAccount');
 
 describe('Dado que estou na página de login', () => {
   beforeEach(() => {
